@@ -1,0 +1,31 @@
+.home-container {
+
+}
+
+.home-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.home-t {
+    width: 100%;
+    position: absolute;
+    color: white;
+    top: 0;
+    line-height: 9vw;
+}
+
+.home-b {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+.home-tex {
+    position: absolute;
+    right: 10px;
+    bottom: 10vw;
+    color: white;
+    width: 20vw;
+}
