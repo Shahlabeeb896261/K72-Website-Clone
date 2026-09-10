@@ -1,0 +1,10 @@
+.homeText-container {
+    width: 100%;
+    display: flex;
+}
+
+.homeText-container p {
+    font-size: 16px;
+    text-indent: 5vw;
+    font-weight: 500;
+}
