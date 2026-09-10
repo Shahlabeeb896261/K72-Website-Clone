@@ -1,0 +1,70 @@
+.agency-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 200vh;
+}
+
+.agency-images {
+  width: 240px;
+  height: 330px;
+  background-color: red;
+  border-radius: 14px;
+  overflow: hidden;
+  position: absolute;
+  top: 28vh;
+  left: 30vw;
+}
+
+.agency-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.agency-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 58vh;
+  width: 100%;
+}
+
+.agency-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.agency-heading h1 {
+  font-size: 19vw;
+  font-weight: 800;
+  line-height: 15vw;
+}
+
+.agency-para {
+  width: 54vw;
+  position: absolute;
+  right: 3vw;
+  top: 64vh;
+}
+
+.agency-para p {
+  font-size: 3.8vw;
+  line-height: 3.6vw;
+  font-weight: 600;
+  text-indent: 6.6vw;
+}
+
+.agency-middle {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 40px;
+    font-size: 3vw;
+    /* position: absolute;
+    top: 20vw;
+    left: 0; */
+    /* background-color: lightblue; */
+}
