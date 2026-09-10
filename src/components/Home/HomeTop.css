@@ -1,0 +1,30 @@
+.homeTop-container {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.first {
+    font-size: 10vw;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    font-size: 10vw;
+}
+
+.second div {
+    width: 242px;
+    height: 106px;
+    overflow: hidden;
+}
+
+.second div video {
+    border-radius: 80px;  
+}
+
+.third {
+    font-size: 10vw;
+}
