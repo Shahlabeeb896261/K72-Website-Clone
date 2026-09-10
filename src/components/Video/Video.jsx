@@ -1,8 +1,13 @@
+import bgVideo from "../../assets/web_vd.mp4";
 import "./Video.css";
 
 const Video = () => {
   return (
-    <>Video</>
+    <>
+      <div className="video-container">
+        <video loop autoPlay muted src={bgVideo}></video>
+      </div>
+    </>
   )
 }
 
