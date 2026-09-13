@@ -1,24 +1,20 @@
-import HomeTop from "../../components/Home/HomeTop";
-import HomeBottom from "../../components/HomeBottom/HomeBottom";
-import HomeText from "../../components/HomeText/HomeText";
-import Video from "../../components/Video/Video";
+import HomeContent from "../../components/HomeContent/HomeContent";
+import Navbar from "../../components/Navbar/Navbar";
+import Video from "../../components/Video/Video"
 import "./Home.css";
 
 const Home = () => {
   return (
     <>
       <div className="home-container">
-        <div className="home-video">
+        <div className="home-navbar">
+          <Navbar />
+        </div>
+        <div className="home-bg-video">
           <Video />
         </div>
-        <div className="home-t">
-          <HomeTop />
-        </div>
-        <div className="home-b">
-          <HomeBottom />
-        </div>
-        <div className="home-tex">
-          <HomeText />
+        <div className="home-content-x">
+          <HomeContent />
         </div>
       </div>
     </>

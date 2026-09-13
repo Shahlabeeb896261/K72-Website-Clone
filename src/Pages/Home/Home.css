@@ -1,31 +1,26 @@
 .home-container {
-
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
-.home-video {
+.home-navbar {
+    position: relative;
+    z-index: 2;
+}
+
+.home-bg-video {
     position: fixed;
     top: 0;
     left: 0;
 }
 
-.home-t {
-    width: 100%;
-    position: absolute;
-    color: white;
+.home-content-x {
+    position: fixed;
     top: 0;
-    line-height: 9vw;
-}
-
-.home-b {
-    position: absolute;
-    bottom: 10px;
+    left: 0;
     width: 100%;
-}
-
-.home-tex {
-    position: absolute;
-    right: 10px;
-    bottom: 10vw;
-    color: white;
-    width: 20vw;
+    height: 100%;
+    z-index: 1;
 }
