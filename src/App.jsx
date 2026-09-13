@@ -1,17 +1,13 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home/Home";
 import "./App.css";
-import Agency from "./Pages/Agency/Agency";
-import Work from "./Pages/Work/Work";
+import Home from "./Pages/Home/Home";
 
 const App = () => {
   return (
     <>
-      <div className="container">
+      <div className="app-container">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/agency" element={<Agency />} />
-          <Route path="/work" element={<Work />} />
         </Routes>
       </div>
     </>
