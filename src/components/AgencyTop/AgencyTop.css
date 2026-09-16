@@ -1,0 +1,121 @@
+.agency-container {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.agency-image {
+  width: 228px;
+  height: 325px;
+  border-radius: 14px;
+  position: absolute;
+  top: 11vw;
+  left: 30vw;
+  overflow: hidden;
+}
+
+.agency-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.agency-heading {
+  display: flex;
+  flex-direction: column;
+  margin-top: 28vw;
+  z-index: 2;
+}
+
+.agency-heading h1 {
+  text-transform: uppercase;
+  font-size: 19vw;
+  line-height: 15vw;
+  font-family: font2;
+  text-align: center;
+}
+
+.agency-para {
+  display: flex;
+  justify-content: flex-end;
+  z-index: 2;
+}
+
+.agency-para p {
+  text-indent: 13vw;
+  width: 60vw;
+  font-size: 3.5vw;
+  line-height: 4vw;
+  font-family: font2;
+}
+
+.ab-bottom {
+  max-width: 1250px;
+  margin: 140px auto 40px auto;
+  display: flex;
+  gap: 25.8vw;
+}
+
+.ab-bottom-f h3 {
+  font-size: 1.5vw;
+  font-family: font1;
+}
+
+.ab-bottom-s {
+  display: flex;
+}
+
+.ab-bottom-s .ab-bttom-s-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ab-bottom-s .ab-bottom-s-ul li {
+  font-size: 1.3vw;
+  list-style-type: none;
+  font-family: font2;
+}
+
+.ld-f {
+  width: 100%;
+  max-width: 1250px;
+  margin: 150px auto 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4vw;
+}
+
+.ld-ffirst {
+  width: 80%;
+}
+
+.ld-ffirst p {
+  width: 100%;
+  font-size: 1.2vw;
+  font-family: font2;
+  line-height: 1.6vw;
+}
+
+.ld-fsecond {
+  width: 80%;
+}
+
+.ld-fsecond p {
+  font-size: 1.2vw;
+  font-family: font2;
+  line-height: 1.6vw;
+}
+
+.ld-fthird {
+  width: 48%;
+}
+
+.ld-fthird p {
+  font-size: 1.2vw;
+  font-family: font2;
+  line-height: 1.6vw;
+}
