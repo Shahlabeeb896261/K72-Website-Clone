@@ -4,11 +4,9 @@ import "./Video.css";
 const Video = () => {
   return (
     <>
-      <div className="video-container">
-        <video loop autoPlay muted src={bgVideo}></video>
-      </div>
+      <video loop autoPlay muted src={bgVideo}></video>
     </>
-  )
-}
+  );
+};
 
 export default Video;
