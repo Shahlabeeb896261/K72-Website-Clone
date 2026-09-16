@@ -1,0 +1,56 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 9vw;
+  padding: 10px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.nav-div {
+  width: 16vw;
+  height: 50px;
+  position: relative;
+}
+
+.nav-div-top,
+.nav-div-bottom {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 5px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.nd-first {
+  width: 50px;
+  height: 1.4px;
+  background-color: white;
+}
+
+.nd-second {
+  width: 24px;
+  height: 1.2px;
+  background-color: white;
+}
+
+.nav-div-bottom {
+  width: 100%;
+  height: 0;
+  background-color: #d3fd50;
+  position: absolute;
+  top: 0;
+  transition: all 0.1s;
+}
